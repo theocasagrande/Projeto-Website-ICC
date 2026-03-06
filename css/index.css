@@ -19,7 +19,7 @@ header {
   justify-content: left;
   align-items: center;
   align-self: center;
-  height: 10rem;
+  height: 15rem;
   background-color: #cf2d2d;
 }
 h1 {
@@ -46,7 +46,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 5rem;
+  width: 8rem;
   height: 2rem;
   border-left: 0.1rem solid var(--white);
   margin-left: 1rem;
@@ -54,6 +54,6 @@ h1 {
 
 
 img {
-  height: 100%;
-  margin-left: 1rem;
+  height: 80%;
+  margin-left: 5rem;
 }
