@@ -22,7 +22,7 @@ header {
   height: 15rem;
   background-color: #cf2d2d;
 }
-h1 {
+.nome {
   font-family: "Bpmf Huninn", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -54,15 +54,15 @@ h1 {
 
 
 img {
-  height: 80%;
-  margin-left: 5rem;
+  height: 60%;
+  margin-left: 3rem;
 }
 
 
 .caixa_texto {
   width: 6rem;
   height: 3rem;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
   border: 0.5rem solid #b20000;
   background-color: #b20000;
   display: flex;
@@ -84,3 +84,48 @@ a {
   text-align: center;
 }
 
+section {
+  height: 30rem;
+  width: 100%;
+}
+
+.slogan {
+  font-size: 3rem;
+  height: 8rem;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.subtitulo {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+
+}
+
+
+.heromap {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  height: 60%;
+}
+.sec11 {
+  width: 50%
+}
+
+.sec12 {
+  margin-top: 1rem;
+  width: 50%;
+}
+
+.heroimg {
+  width: 90%;
+  height: 100%;
+}
