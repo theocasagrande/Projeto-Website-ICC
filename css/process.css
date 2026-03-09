@@ -132,7 +132,212 @@ h1 {
     color: var(--cinza700);
 }
 
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+
+.crontitulo {
+    border: 1rem solid #7b001e;
+    background-color: #7b001e;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    color: var(--white);
+    width: 14rem;
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+
+
+
+.cronograma{
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+li {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.cronlista{
+    margin-left: 2rem;
+    
+}
+
+
+.cronitens {
+    margin-top: 5rem;
+    margin-left: 4rem;
+    border-left: 0.3rem solid #5a0f1b;
+    list-style-type: disc;
+
+}
+
+
+.heroimg {
+    width: 38rem;
+    height: 20rem;
+    margin-top: 4rem;
+}
+
+
+
+
+
+.funcionamentotitulo {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--cinza900);
+    margin: 6rem auto 4rem auto;
+    width: fit-content;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.funcionamentotitulo::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    height: 70%;
+    width: 0.4rem;
+    background-color: var(--vermelho2);
+    border-radius: 0.2rem;
+}
+
+
+.titulofases {
+    margin-top: 2rem;
+    font-size: 2rem;
+    background-color: #7b001e;
+    border: 1rem solid #7b001e;
+    border-radius: 1rem;
+    width:fit-content;
+    color:#f5f5f5;
+    margin-bottom: 2rem;
+}
+
+.funcionamento {
+    display: flex;
+    flex-direction: column;
+    height: 70rem;
+}
+.expfases li{
+    list-style-type: disc;
+    margin-top: 1rem;
+    width: 30rem;
+    font-size: 1.5rem;
+}
+
+.fases {
+    align-self: center;
+}
+
+
+
+
+.faq {
+    background-color: var(--white);
+    padding: 6rem 8rem;
+}
+
+.faq-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.faq-titulo {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.faq-sub {
+    color: var(--cinza500);
+    font-size: 1.1rem;
+}
+
+.faq-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    padding: 2rem;
+    border-bottom: 1px solid var(--cinza200);
+
+}
+
+.faq-item h2 {
+    font-size: 1.4rem;
+    color: var(--vermelho2);
+    margin-bottom: 1rem;
+}
+
+.faq-item p {
+    font-size: 1.1rem;
+    color: var(--cinza700);
+    line-height: 1.6;
+}
+
+
+
+
+.cta-final {
+    padding: 6rem 2rem;
+    text-align: center;
+    background: linear-gradient(
+        135deg,
+        var(--vermelho1),
+        var(--vermelho2),
+        var(--vermelho3)
+    );
+    color: var(--white);
+}
+
+.cta-titulo {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.cta-sub {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.cta-botao {
+    background-color: var(--white);
+    color: var(--vermelho2);
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-botao:hover {
+    background-color: var(--cinza100);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.cta-footer {
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    color: white;
+}
+
+
+
+p {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black
 }
