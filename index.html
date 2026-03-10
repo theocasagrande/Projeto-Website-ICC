@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Bpmf+Huninn&family=Bpmf+Zihi+Kai+Std&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/index.css">
+        <script src="index.js"></script>
     </head>
     <body>
         <header>
@@ -103,7 +104,54 @@
 
         </section>
 
+        <section class="equipe">
+            <h1 class="equipe-titulo">Nossa Equipe</h1>
 
+            <div class="equipe-cards">
+
+                <div class="membro-card" onclick="abrirModal(this)">
+                    <img src="img/presidente.png" alt="Membro" class="membro-img">
+                    <h3 class="membro-nome">Enrico Simões Pietro</h3>
+                    <p class="membro-cargo">Presidente</p>
+
+                    <div class="membro-info">
+Bacharel em Administração e estudante de Economia (dupla titulação) pelo Insper, apaixonado por estratégia, dados e solução estruturada de problemas.
+
+Atuo como presidente no Insper Consulting Club (ICC), entidade que conecta alunos ao mercado de consultoria por meio de treinamentos, resolução de cases e preparação para processos seletivos das principais firmas do setor. No ICC, desenvolvo habilidades essenciais para consultoria, como estruturação de problemas, análise baseada em evidências, storytelling executivo e uso de frameworks reconhecidos (PDCA, 6-Sigma, Árvore de Hipóteses, Matriz GUT).
+                    </div>
+                </div>
+
+                <div class="membro-card" onclick="abrirModal(this)">
+                    <img src="img/placeholder.webp" alt="Membro" class="membro-img">
+                    <h3 class="membro-nome">Maria Souza</h3>
+                    <p class="membro-cargo">Diretora de Projetos</p>
+
+                    <div class="membro-info">
+                        Responsável pela estruturação de cases, treinamentos técnicos e desenvolvimento dos membros em competições estratégicas.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div id="modal-overlay" onclick="fecharModal()">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="fechar" onclick="fecharModal()">×</span>
+                <div id="modal-detalhes"></div>
+            </div>
+        </div>
+
+        <section class="parceiros">
+            <div class="parceiros-esq">
+            <h1 class="parceiros-titulo"> Nossos Parceiros</h1>
+            <ul class="parceiros-lista">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            </div>
+        </section>
 
 
         <footer>
