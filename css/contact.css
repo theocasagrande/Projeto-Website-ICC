@@ -1,0 +1,133 @@
+:root{
+  --vermelho1: #cf2d2d;
+  --vermelho2: #b20000;
+  --vermelho3: #7b001e;
+  --vermelho4: #5a0f1b;
+  --cinza900: #111111;
+  --cinza700: #333333;
+  --cinza500: #666666;
+  --cinza200: #e5e5e5;
+  --cinza100: #f5f5f5;
+  --black:#000000;
+  --white:#ffffff;
+  font-size:100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: 15rem;
+  background-color: #cf2d2d;
+}
+.nome {
+  font-family: "Bpmf Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
+.org {
+  font-family: "Bpmf Zihi Kai Std", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding-left: 0.5rem;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 8rem;
+  height: 2rem;
+  border-left: 0.1rem solid var(--white);
+  margin-left: 1rem;
+}
+
+
+img {
+  height: 60%;
+  margin-left: 3rem;
+}
+
+h1 {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.tituloesp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.titulo {
+  font-size: 2rem;
+  border: 1rem solid #cf2d2d;
+  width: 15rem;
+  color: var(--white);
+  background-color: #cf2d2d;
+  text-align: center;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.contato {
+    padding: 6rem 8rem;
+    background-color: var(--cinza100);
+}
+
+.contato-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.contatotitulo {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.contatosub {
+    font-size: 1.2rem;
+    color: var(--cinza500);
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.contato-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.card {
+    background-color: var(--white);
+    padding: 2rem;
+    border: 1px solid var(--cinza200);
+    border-radius: 0.8rem;
+    transition: all 0.3s ease;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card h3 {
+    color: var(--vermelho2);
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: var(--cinza700);
+}
