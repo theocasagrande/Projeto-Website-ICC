@@ -133,6 +133,7 @@ a {
 
 
 .sobrenos-titulo {
+    font-family: "Tajawal", sans-serif;
     font-size: 3rem;
     font-weight: 600;
     color: var(--cinza900);
@@ -186,4 +187,51 @@ a {
 .destaque {
     color: var(--vermelho2);
     font-weight: 600;
+}
+
+
+.atividades {
+  height: 35rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.atividades-titulo {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  margin: 4rem auto 3rem auto;
+  position: relative;
+  width: fit-content;
+  padding-left: 1.5rem;
+}
+
+.atividades-titulo::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  height: 70%;
+  width: 0.4rem;
+  background-color: var(--vermelho2);
+  border-radius: 0.2rem;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  width: 20rem;
+}
+
+.card-img {
+  width: 2rem;
+  height: 2rem;
 }
