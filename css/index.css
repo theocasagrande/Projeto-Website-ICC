@@ -388,4 +388,165 @@ a {
   font-family: "Tajawal", sans-serif;
   font-weight: 600;
   font-size: 3rem;
+  margin: 3rem auto; 
+  position: relative; 
+  width: fit-content; 
+  padding-left: 1.5rem;
+}
+
+.parceiros-titulo::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    height: 70%;
+    width: 0.4rem;
+    background-color: var(--vermelho2);
+    border-radius: 0.2rem;
+}
+
+
+.parceiros-lista {
+  padding-left: 5rem;
+  padding-bottom: 4rem;
+  padding-top: 1rem;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  height: 15rem;
+  width: 15rem;
+  background-color: #e5e5e5;
+  border: 0.4rem solid #333333
+}
+
+.parceiros-lista li {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+
+.parceiros-img {
+  width: auto;
+  align-self: center;
+  height:20rem;
+  margin-left: 5rem;
+}
+
+
+
+.numeros {
+  padding: 6rem 0;
+  background-color: var(--white);
+}
+
+.numeros-titulo {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+}
+
+.numeros-titulo::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  height: 70%;
+  width: 0.4rem;
+  background-color: var(--vermelho2);
+  border-radius: 0.2rem;
+}
+
+.numeros-container {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.numero-card {
+  text-align: center;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.numero-card:hover {
+  transform: translateY(-6px);
+}
+
+.numero-valor {
+  font-family: "Tajawal", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--vermelho2);
+}
+
+.numero-label {
+  font-family: "Tajawal", sans-serif;
+  font-size: 1.1rem;
+  color: var(--cinza700);
+  margin-top: 0.5rem;
+}
+
+
+/* ===== FOOTER ===== */
+
+.footer {
+  background-color: var(--vermelho1);
+  color: var(--white);
+  padding-top: 4rem;
+  margin-top: 6rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  max-width: 300px;
+}
+
+.footer-logo {
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+.footer-nome {
+  font-family: "Tajawal", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.footer-titulo {
+  font-family: "Tajawal", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--vermelho1);
+}
+
+.footer-col p {
+  font-family: "Tajawal", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--cinza200);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 1.5rem 0;
+  background-color: var(--vermelho4);
+  font-family: "Tajawal", sans-serif;
+  font-size: 0.9rem;
+  color: var(--white);
 }
