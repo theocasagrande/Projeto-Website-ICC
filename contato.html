@@ -3,24 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contate-nos</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
-<label for="Nome">Nome</label>
-<input id="Nome" type="text" name="Nome" />
-<br>
-<label for="E-mail">E-mail</label>
-<input id="E-mail" type="text" name="E-mail" />
-<br>
-<label for="telefone">Número</label>
-<input id="telefone" type="number" name="telefone" />
-<br>
-<select id="detalhes" name="detalhes">
-    <option value="1"></option>
-    <option value="2">Estudante</option>
-    <option value="3">Parceiro</option>
-</select>
-<br>
-<input type="submit" />
+<body>
+        <header>
+                <img src="img/wolf.png" alt="wolf">
+                <h1 class="nome">
+                    Insper Consulting Club
+                </h1>
+                <p class="org">
+                    ORGANIZAÇÃO ESTUDANTIL
+                </p>
+        </header>
+        <div class="tituloesp">
+            <h1 class="titulo">
+            Contate-nos
+            </h1>
+        </div>
+
+        <section class="contato">
+
+            <div class="contato-header">
+                <h2 class="contatotitulo">Interessado em se comunicar conosco?</h2>
+                <p class="contatosub">
+                    Sinta-se livre para nos enviar suas informações, para que entremos em contato!
+                </p>
+            </div>
+
+            <div class="contato-cards">
+                <label for="Nome" class="card">
+                    Nome
+                    <br>
+                    <input id="Nome" type="text" name="Nome" />
+                </label>
+                <label for="E-mail" class="card">
+                    E-mail
+                    <br>
+                    <input id="E-mail" type="text" name="E-mail" />
+                </label>
+                <label for="telefone" class="card">
+                    telefone
+                    <br>
+                    <input id="telefone" type="number" name="telefone" />
+                </label>
+                <label class="card">
+                    <select id="detalhes" name="detalhes">
+                        <option value="1"></option>
+                        <option value="2">Estudante</option>
+                        <option value="3">Parceiro</option>
+                    </select>
+                </label>
+                <a href="contato.html" target="_self">
+                    <input type="submit" />
+                </a>
+            </div>
+        </section>
 </html>
