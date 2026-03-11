@@ -218,6 +218,7 @@ a {
   display: flex;
   margin-top: 4rem;
   flex-direction: row;
+  justify-content: center;
   gap: 2rem;
 }
 
